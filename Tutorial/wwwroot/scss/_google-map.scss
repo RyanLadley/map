@@ -1,0 +1,33 @@
+.angular-google-map-container {
+    height: 400px;
+}
+.marker-window-content {
+    float: left;
+}
+
+.marker-window-thumbnail {
+    display: block;
+    margin: 10px 10px 0 0;
+    float: left;
+    max-width: 230px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+}
+
+.marker-window-header {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.marker-window-subheader{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+.marker-window-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}

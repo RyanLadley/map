@@ -1,0 +1,9 @@
+E:\Programing\Projects\NET\Tutorial\Tutorial\bin\Debug\netcoreapp1.1\Tutorial.deps.json
+E:\Programing\Projects\NET\Tutorial\Tutorial\bin\Debug\netcoreapp1.1\Tutorial.runtimeconfig.json
+E:\Programing\Projects\NET\Tutorial\Tutorial\bin\Debug\netcoreapp1.1\Tutorial.runtimeconfig.dev.json
+E:\Programing\Projects\NET\Tutorial\Tutorial\bin\Debug\netcoreapp1.1\Tutorial.dll
+E:\Programing\Projects\NET\Tutorial\Tutorial\bin\Debug\netcoreapp1.1\Tutorial.pdb
+E:\Programing\Projects\NET\Tutorial\Tutorial\obj\Debug\netcoreapp1.1\Tutorial.AssemblyInfo.cs
+E:\Programing\Projects\NET\Tutorial\Tutorial\obj\Debug\netcoreapp1.1\Tutorial.dll
+E:\Programing\Projects\NET\Tutorial\Tutorial\obj\Debug\netcoreapp1.1\Tutorial.pdb
+E:\Programing\Projects\NET\Tutorial\Tutorial\obj\Debug\netcoreapp1.1\Tutorial.csprojResolveAssemblyReference.cache

@@ -1,0 +1,39 @@
+var app = angular.module('app', ['ngRoute', 'ngCookies', 'uiGmapgoogle-maps'], ['$locationProvider', function($locationProvider){
+    $locationProvider.html5Mode(true);
+}]).config(['uiGmapGoogleMapApiProvider', function (uiGmapGoogleMapApiProvider) {
+    uiGmapGoogleMapApiProvider.configure({
+        key: 'AIzaSyB5OcHLGGPAamonx9H9MTUUmSS4RcArIQ4',
+        v: '3.26', //defaults to latest 3.X anyhow
+        libraries: 'weather,geometry,visualization'
+    });
+}]);
+
+/*app.run(function($rootScope, $location, $cookies){
+    //Check for token changes. 
+    //If the token is deleted, the user is signed out, move them to the login page
+    $rootScope.$watchCollection(function(){ return $cookies.getObject('token');}, function(token){
+        if(token == null){
+            $rootScope.isSignedIn = false;
+            if($location.path() !== "/login"){
+                alert("You have been logged out!")
+                $location.url("/login")
+                $rootScope.loading = false;
+            }
+        }
+        else{
+            $rootScope.isSignedIn = true;
+        }
+    });
+
+    //If the user is logged out, the only page they can view is the login page
+    //On route change, check to make sure the user is signed in
+    $rootScope.$on( "$routeChangeStart", function(event, next, current) {
+        if (!$rootScope.isSignedIn) {
+            $location.url("/login")
+            $rootScope.loading = false;
+        }
+    })
+
+    //Variable to toggle loading icon
+    $rootScope.loading = false;
+});*/
